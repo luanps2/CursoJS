@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios aula 13</title>
+</head>
+
+<body>
+    <script>
+        const nome = prompt('digite seu nome completo');
+        document.body.innerHTML = `1 - o seu nome é <strong>${nome}</strong></br>`
+        document.body.innerHTML += `2 - o seu nome tem: <strong>${nome.length}</strong> letras </br>`
+        document.body.innerHTML += `3 - A segunda letra do seu nome é: <strong>${nome.charAt(1)}</strong> </br>`
+        document.body.innerHTML += `3.1 - A segunda letra do seu nome é: <strong>${nome[1]}</strong> </br>`
+        document.body.innerHTML += `4 - Qual o primeiro indíce da letra A no seu nome: <strong>${nome.indexOf('a')}</strong> </br>`
+        document.body.innerHTML += `5 - Qual o último indíce da letra A no seu nome: <strong>${nome.lastIndexOf('a')}</strong> </br>`
+        document.body.innerHTML += `6 - As últimas 3 letras do seu nome são: <strong>${nome.substring(nome.length-3)}</strong> </br>`
+        document.body.innerHTML += `6.1 - As últimas 3 letras do seu nome são: <strong>${nome.slice(-3)}</strong> </br>`
+        document.body.innerHTML += `7 - As palavras do seu nome são: <strong>${nome.split(' ')}</strong> </br>`
+        document.body.innerHTML += `8 - seu nome com letras maíuscula: <strong>${nome.toUpperCase()}</strong> </br>`
+        document.body.innerHTML += `9 - seu nome com letras mínusculas: <strong>${nome.toLowerCase()}</strong> </br>`
+        console.log(nome)
+    </script>
+</body>
+
+</html>
