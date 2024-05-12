@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    position: relative;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    
+}
